@@ -11,15 +11,13 @@ env_var = {
     "jwts.private.key": "3lZQWfP+tFphA3LlIzGQU8CVCkHMqzcDAX56BxfZub/RMWAjm3bxgebqtvw4HbGqw1+UXXl5hF5/2Oi4Fv2UYA==",
     "jwts.private.key.prod": "3lZQWfP+tFphA3LlIzGQU8CVCkHMqzcDAX56BxfZub/RMWAjm3bxgebqtvw4HbGqw1+UXXl5hF5/2Oi4Fv2UYA==",
 
-    # AWS
-    "aws.access.key.id": "AKIAW2NB2RJU2CPQNGOX",
-    "aws.secret.access.key": "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",
-    "aws.region": "eu-central-1",
-    "aws.dynamodb.apps.url": "http://localhost:8000",
-
     # Database
+    "database.dynamodb.endpoint": "http://localhost:8000",
     "database.dynamodb.table.account": "mini-blog-iam-dev",
     "database.dynamodb.table.account.prod": "mini-blog-iam-prod",
+
+    # Storage: S3 (MinIO on local)
+    "storage.s3.endpoint": "http://localhost:9000",
 
 }
 
