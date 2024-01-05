@@ -16,7 +16,7 @@ a NoSQL database service provided by AWS, for data storage.
 
 - Python 3.11
 - Flask
-- AWS account with DynamoDB access
+- AWS account with DynamoDB, S3 access
 
 ## Setup
 
@@ -67,7 +67,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgements
 
 - [Flask](https://flask.palletsprojects.com/)
-- [DynamoDB](https://aws.amazon.com/dynamodb/)
+- [DynamoDB](https://aws.amazon.com/dynamodb/) (For local dev: [NoSQL Workbench For DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html))
+- [S3](https://aws.amazon.com/s3/) (For local dev: [MINIO](https://min.io))
 
 ---
 
